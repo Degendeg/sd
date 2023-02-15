@@ -4,6 +4,6 @@ $(document).ready(function() {
 	
 	if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
 	  window.scrollTo(0, 0);
-	  window.history.replaceState(null, null, window.location.pathname);
+	  window.location.href = window.location.origin;
 	}
 });
