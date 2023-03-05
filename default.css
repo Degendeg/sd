@@ -135,3 +135,13 @@ svg {
   text-decoration: none;
   color: var(--primary-color);
 }
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 300px)
+  and (max-device-width: 812px) {
+	#about {
+	  margin-top: -10vh;
+	  font-size: .8rem;
+	  word-break: break-word;
+	}
+}
